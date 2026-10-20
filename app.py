@@ -256,6 +256,7 @@ def build_agent() -> AgentExecutor:
         agent=agent,
         tools=tools,
         verbose=True,
+        
         handle_parsing_errors=True,
         return_intermediate_steps=True,
     )
